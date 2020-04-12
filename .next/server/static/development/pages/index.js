@@ -105,32 +105,71 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Container */ "react-bootstrap/Container");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Row */ "react-bootstrap/Row");
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Col */ "react-bootstrap/Col");
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Form */ "react-bootstrap/Form");
+/* harmony import */ var react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/aprofeit/src/github.com/aprofeit/chat-frontend/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
 function Index() {
-  return __jsx("div", {
+  return __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    fluid: true,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3,
+      lineNumber: 8,
       columnNumber: 5
     }
-  }, __jsx("h1", {
+  }, __jsx(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4,
-      columnNumber: 5
-    }
-  }, __jsx("h1", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 9,
       columnNumber: 7
     }
-  }, "Hello, world!")));
+  }), __jsx(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    className: "chat-input",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 7
+    }
+  }, __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    lg: true,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 9
+    }
+  }, __jsx(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 11
+    }
+  }, __jsx(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4___default.a.Control, {
+    size: "lg",
+    type: "text",
+    placeholder: "Message",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 13
+    }
+  })))));
 }
 
 /***/ }),
@@ -155,6 +194,50 @@ module.exports = __webpack_require__(/*! /Users/aprofeit/src/github.com/aprofeit
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-bootstrap/Col":
+/*!**************************************!*\
+  !*** external "react-bootstrap/Col" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Col");
+
+/***/ }),
+
+/***/ "react-bootstrap/Container":
+/*!********************************************!*\
+  !*** external "react-bootstrap/Container" ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Container");
+
+/***/ }),
+
+/***/ "react-bootstrap/Form":
+/*!***************************************!*\
+  !*** external "react-bootstrap/Form" ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Form");
+
+/***/ }),
+
+/***/ "react-bootstrap/Row":
+/*!**************************************!*\
+  !*** external "react-bootstrap/Row" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Row");
 
 /***/ })
 
