@@ -62,14 +62,21 @@ function Index() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4,
+      columnNumber: 5
+    }
+  }, __jsx("h1", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
       columnNumber: 7
     }
-  }, "Hello, world!"));
+  }, "Hello, world!")));
 }
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Faprofeit%2Fsrc%2Fgithub.com%2Faprofeit%2Fchat-frontend%2Fpages%2Findex.js ***!
   \*****************************************************************************************************************************************************/
@@ -92,5 +99,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
