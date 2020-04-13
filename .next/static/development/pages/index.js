@@ -2431,7 +2431,7 @@ function Index() {
       columnNumber: 7
     }
   }), __jsx(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    className: "chat-input",
+    className: "fixed-bottom",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -2457,10 +2457,22 @@ function Index() {
     size: "lg",
     type: "text",
     placeholder: "Message",
+    required: true,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
+      columnNumber: 13
+    }
+  }), __jsx(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_4__["default"].Control, {
+    size: "xs",
+    type: "text",
+    placeholder: "Username",
+    required: true,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
       columnNumber: 13
     }
   })))));

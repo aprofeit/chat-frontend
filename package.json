@@ -14,8 +14,9 @@
     "react-dom": "^16.13.1"
   },
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "dev": "next",
+    "build": "NODE_ENV=staging next build production",
+    "start": "NODE_ENV=production next start"
   }
 }

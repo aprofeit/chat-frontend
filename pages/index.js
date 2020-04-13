@@ -9,10 +9,11 @@ export default function Index() {
       <Row>
       </Row>
 
-      <Row className="chat-input">
+      <Row className="fixed-bottom">
         <Col lg={true}>
           <Form>
-            <Form.Control size="lg" type="text" placeholder="Message" />
+            <Form.Control size="lg" type="text" placeholder="Message" required />
+            <Form.Control size="xs" type="text" placeholder="Username" required />
           </Form>
         </Col>
       </Row>

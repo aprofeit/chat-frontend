@@ -114,7 +114,7 @@ exports.push([module.i, "/*!\n * Bootstrap v4.4.1 (https://getbootstrap.com/)\n 
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".chat-input {\n  position: fixed;\n  height: 64px;\n  width: 100%;\n  bottom: 0px;\n}\n", "",{"version":3,"sources":["/Users/aprofeit/src/github.com/aprofeit/chat-frontend/styles/app.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,YAAY;EACZ,WAAW;EACX,WAAW;AACb","file":"app.css","sourcesContent":[".chat-input {\n  position: fixed;\n  height: 64px;\n  width: 100%;\n  bottom: 0px;\n}\n"]}]);
+exports.push([module.i, "", "",{"version":3,"sources":[],"names":[],"mappings":"","file":"app.css"}]);
 
 
 /***/ }),
@@ -3493,8 +3493,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _styles_app_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/app.css */ "./styles/app.css");
-/* harmony import */ var _styles_app_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_app_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _styles_app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/app.css */ "./styles/app.css");
+/* harmony import */ var _styles_app_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_app_css__WEBPACK_IMPORTED_MODULE_3__);
 
 var _jsxFileName = "/Users/aprofeit/src/github.com/aprofeit/chat-frontend/pages/_app.js";
 
